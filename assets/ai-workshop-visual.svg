@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">AI勉強会のデモビジュアル</title>
+  <desc id="desc">柔らかなグラデーションの背景に、AIの文字、会話カード、ノード、人物のシルエットを配置した親しみやすい告知用ビジュアル。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#19224a"/>
+      <stop offset="0.48" stop-color="#365bd8"/>
+      <stop offset="1" stop-color="#8c5cf6"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="48%" r="48%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.44"/>
+      <stop offset="0.55" stop-color="#67e8f9" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.62"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#08112d" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" rx="48" fill="url(#bg)"/>
+  <rect width="1200" height="640" rx="48" fill="url(#halo)"/>
+
+  <g opacity="0.18" stroke="#fff" stroke-width="1">
+    <path d="M0 96H1200M0 192H1200M0 288H1200M0 384H1200M0 480H1200M0 576H1200"/>
+    <path d="M96 0V640M192 0V640M288 0V640M384 0V640M480 0V640M576 0V640M672 0V640M768 0V640M864 0V640M960 0V640M1056 0V640"/>
+  </g>
+
+  <circle cx="980" cy="122" r="92" fill="#ffbf69" opacity="0.88"/>
+  <circle cx="164" cy="498" r="72" fill="#00d4ff" opacity="0.62"/>
+  <circle cx="1038" cy="512" r="40" fill="#9bf6ff" opacity="0.45"/>
+
+  <g stroke="#c8f8ff" stroke-width="4" stroke-linecap="round" opacity="0.78">
+    <path d="M246 211L386 152L522 214L642 136L826 214" fill="none"/>
+    <path d="M392 420L514 348L670 404L820 330L940 392" fill="none"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="246" cy="211" r="11"/><circle cx="386" cy="152" r="11"/><circle cx="522" cy="214" r="11"/><circle cx="642" cy="136" r="11"/><circle cx="826" cy="214" r="11"/>
+    <circle cx="392" cy="420" r="10"/><circle cx="514" cy="348" r="10"/><circle cx="670" cy="404" r="10"/><circle cx="820" cy="330" r="10"/><circle cx="940" cy="392" r="10"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="242" y="162" width="716" height="330" rx="44" fill="url(#card)"/>
+    <text x="600" y="342" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="178" font-weight="800" letter-spacing="-18" fill="#1d2b76">AI</text>
+    <text x="600" y="410" text-anchor="middle" font-family="Noto Sans JP, Arial, sans-serif" font-size="34" font-weight="700" fill="#405077">Workshop Demo Visual</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="104" y="92" width="286" height="120" rx="28" fill="#fff" opacity="0.9"/>
+    <circle cx="154" cy="152" r="22" fill="#6c5ce7"/>
+    <rect x="196" y="124" width="132" height="14" rx="7" fill="#94a3b8"/>
+    <rect x="196" y="154" width="86" height="14" rx="7" fill="#cbd5e1"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="812" y="426" width="278" height="122" rx="28" fill="#fff" opacity="0.92"/>
+    <rect x="860" y="462" width="146" height="16" rx="8" fill="#365bd8"/>
+    <rect x="860" y="496" width="182" height="14" rx="7" fill="#cbd5e1"/>
+  </g>
+
+  <g transform="translate(126 342)">
+    <circle cx="64" cy="42" r="42" fill="#ffe6c7"/>
+    <path d="M14 136c10-44 38-66 80-66s70 22 80 66" fill="#ffffff" opacity="0.86"/>
+    <path d="M34 40c8-34 38-54 73-30c10 7 17 18 20 30c-24-11-53-9-93 0z" fill="#172033" opacity="0.86"/>
+  </g>
+</svg>
