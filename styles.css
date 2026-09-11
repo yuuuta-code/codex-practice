@@ -132,3 +132,7 @@ h1 {
   .detail-item { min-height: auto; }
   .hero-content { flex-direction: column; gap: 1rem; }
 }
+
+.main {
+  color: #333;
+}
