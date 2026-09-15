@@ -134,5 +134,6 @@ h1 {
 }
 
 .main {
-  color: #333;
+  color: blue;
+  background-color: lightblue;
 }
