@@ -1,0 +1,14 @@
+name: Check local assets
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check local asset references
+        run: python3 scripts/check_local_assets.py
