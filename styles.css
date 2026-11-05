@@ -6,7 +6,7 @@
   --surface: rgba(255, 255, 255, 0.9);
   --line: rgba(29, 43, 76, 0.12);
   --accent: #6c5ce7;
-  --accent-strong: #2f6df6;
+  --accent-strong: #7438b5;
   --warm: #ffbf69;
 }
 
@@ -107,6 +107,7 @@ body {
 }
 
 h1 {
+  color: var(--accent-strong);
   margin: 0;
   font-size: clamp(2rem, 4vw, 3.4rem);
   line-height: 1.15;
@@ -115,7 +116,7 @@ h1 {
 
 .detail-text {
   margin: 0;
-  color: var(--muted);
+  color: var(--accent-strong);
   font-size: clamp(1.05rem, 2vw, 1.35rem);
   font-weight: 700;
   line-height: 1.65;
@@ -136,3 +137,7 @@ h1 {
 .main {
   color: red;
 }
+
+.venue-map { margin: 1.2rem 0 0; }
+.venue-map img { display: block; width: 100%; height: auto; border: 1px solid #e1d5ee; border-radius: 14px; }
+.venue-map figcaption { margin-top: 0.4rem; color: var(--muted); font-size: 0.7rem; }
